@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+ background-color:#461010;;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 100px;
+    z-index: 100;
+}
+
+header .logo img {
+    max-width: 200px;
+    top: 20;
+    left: 0;
+    position: flex;
+    width: 200px;
+   
+    
+    display: flex;
+   
+}
+
+.navigation {
+    display: flex;
+}
+
+.navigation li {
+    list-style: none;
+    margin: 0 10px;
+}
+
+.navigation li a {
+    color: rgb(250, 250, 250);
+    text-decoration: none;
+    font-weight: 1000;
+    letter-spacing: 2px;
+    font-family: 'Poppins';
+}
+
+.navigation li:hover a {
+    color: #326492;
+}
+
+
+.banner {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 0 100px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.banner .bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: absolute;
+}
+
+.content {
+    position: relative;
+    z-index: 1;
+    max-width: 550px;
+}
+
+
+
+.banner .content h4 {
+    background-color: #ecf1f5;
+    font-weight: 500;
+}
+
+.banner .content h4 span {
+    padding: 0 10px;
+    border-right: 1px solid rgba(255, 253, 253, 0.5);
+}
+
+.banner .content h4 span:first-child {
+    padding-left: 0;
+}
+
+.banner .content h4 span:last-child {
+    border-right: none;
+}
+
+.banner .content h4 span i {
+    background-color: #fbfcfd;
+    color: rgb(73, 7, 7);
+ 
+ 
+    font-style: normal;
+    border-radius: 2px;
+}
+
+.banner .content p {
+    font-size: 1em;
+    font-weight: 300;
+    line-height: 1.5em;
+    color: #ffffff;
+    margin: 10px 0 20px;
+}
+
+.banner .content .buttons {
+    position: relative;
+}
+
+.banner .content .buttons a {
+    position: relative;
+    display: inline-block;
+    margin-right: 10px;
+    background-color: #1b0404;   color: #ffffff;
+    padding: 6px 20px;
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.h1{
+    background-color: #1b0404;
+    color: #fff; 
+    display: absolute;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    text-align: center;
+    font-weight: 1000;
+    min-height: 50px;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+}
+.h2{
+    background-color: #1b0404;
+    color: #fff; 
+    display: ruby-text;
+    padding: 10px 20px;
+    margin-right: 5px;
+    text-align: center;
+    font-weight: 500;
+    min-height: 10px;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+}
+.iframe{
+    text-align: center;
+    position: static;
+
+}
